@@ -1,0 +1,37 @@
+mat-card {
+  background-color: #14a294;
+
+  padding: 5%;
+
+}
+h1 {
+  text-align: center;
+  margin-bottom: 5%;
+
+}
+h4{
+  font-size: 2vw;
+}
+p{
+  font-family: "CentSchbkCyrill BT";
+}
+.qual{
+  text-align: center;
+  width: 35%;
+  margin-top: 2%;
+  margin-right: 3%;
+  display: inline-block;
+  transform: scale(1);
+  transition: all ease-in-out 0.2s;
+  background-color: rgb(238, 117, 124);
+}
+.qual:hover{
+  transform: scale(1.1);
+  transition: all ease-in-out 0.2s;
+  background-color: #484848;
+  color: white;
+}
+.left{
+  margin-right: 4%;
+  margin-left: 2%;
+}

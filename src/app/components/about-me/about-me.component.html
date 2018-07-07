@@ -1,0 +1,7 @@
+<mat-card xmlns="http://www.w3.org/1999/html">
+  <h1>{{title}}</h1>
+  <mat-card class="techcard" *ngFor="let variable of Technologies">
+    <mat-card class="tech">{{variable.Tech}}<br></mat-card>
+    <mat-card class="des">{{variable.Descrip}}</mat-card>
+  </mat-card>
+</mat-card>

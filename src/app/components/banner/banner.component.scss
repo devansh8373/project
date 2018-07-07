@@ -1,0 +1,28 @@
+.div {
+  background-image: url("../../../assets/images/name.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  text-align: center;
+  background-size: contain;
+  padding: 15%;
+  color: #ffffff;
+  height: auto;
+
+}
+h1{
+  font-size: 70px;
+}
+div{
+  width: 900px;
+  height: 10px;
+  background-color: white;
+}
+.upl{
+  position: absolute;
+  bottom: 360px;
+}
+.upr{
+position: absolute;
+  bottom: 220px;
+}
+

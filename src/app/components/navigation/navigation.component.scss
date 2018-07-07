@@ -1,0 +1,38 @@
+.nav {
+  margin: 0px;
+  background-color: #14a294;
+  border-radius: 0px;
+  height: 60px;
+  padding: 40px;
+
+
+}
+.mat-card:not([class*=mat-elevation-z]) {
+  box-shadow: none;
+}
+h1 {
+  display: inline-block;
+}
+ul {
+  display: inline-block;
+  font-family: Helvetica;
+  font-weight: bold;
+  padding-left: 20px;
+
+
+}
+div {
+  float: right;
+}
+li {
+  list-style: none;
+  color: #000000;
+  font-size: 17px;
+  float: left;
+  padding: 0px;
+  cursor: pointer;
+}
+li:hover{
+  color:rgb(238, 117, 124);
+}
+
