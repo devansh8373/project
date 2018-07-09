@@ -10,16 +10,16 @@ h1 {
 
 }
 h4{
-  font-size: 2vw;
+  font-size: 2.5vw;
 }
 p{
   font-family: "CentSchbkCyrill BT";
 }
 .qual{
   text-align: center;
-  width: 35%;
+  width: 42%;
   margin-top: 2%;
-  margin-right: 3%;
+  margin-right: 7%;
   display: inline-block;
   transform: scale(1);
   transition: all ease-in-out 0.2s;
@@ -32,6 +32,25 @@ p{
   color: white;
 }
 .left{
-  margin-right: 4%;
+  //margin-right: 4%;
   margin-left: 2%;
+}
+
+@media screen and (max-width:500px){
+  .qual{
+    width: 80%;
+    margin-bottom: 3%;
+
+  }
+}
+
+@media screen and (max-width:380px){
+  .qual{
+    width: 80%;
+    margin-bottom: 3%;
+    margin-left: 8%;
+    height: 6vh;
+    padding-top: 26px;
+
+  }
 }

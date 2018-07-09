@@ -7,14 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavigationComponent implements OnInit {
   Header = [
-    { 'Text' : 'Home' },
-    { 'Text' : 'About' },
-    { 'Text' : 'Skills' },
-    { 'Text' : 'Qualities' },
-    { 'Text' : 'Experience' },
-    { 'Text' : 'Education' },
-    { 'Text' : 'Portfolio' },
-    { 'Text' : 'Contact'},
+    { 'Text' : 'Home', 'Link' : '#banner' },
+    { 'Text' : 'About', 'Link' : '#int'},
+    { 'Text' : 'Skills', 'Link' : '#Skills' },
+    { 'Text' : 'Qualities', 'Link' : '#qualities'},
+    { 'Text' : 'Experience', 'Link' : '#exp'},
+    { 'Text' : 'Education', 'Link' : '#education'},
+    { 'Text' : 'Portfolio', 'Link' : '#portfolio'},
+    { 'Text' : 'Contact', 'Link' : '#contact'}
     // { 'Text' : 'Resume', 'class' : 'fa fa-download' },
   ];
 

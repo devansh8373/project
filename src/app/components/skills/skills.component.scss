@@ -30,3 +30,23 @@ span{
   height: 150px;
   padding: 30px;
 }
+
+@media screen and (max-width: 803px) {
+  .sleft{
+    width: 80%;
+  }
+  .sright{
+    width: 80%;
+    float: left;
+    margin-left: 2%;
+  }
+  mat-card{
+    height: 1500px;
+  }
+
+}
+@media screen and (max-width: 420px){
+mat-card{
+  height: 1600px;
+}
+}

@@ -1,12 +1,23 @@
 <mat-card class="nav">
-  <div class="">
+  <div class="visible-lg visible-md">
     <ul *ngFor="let variable of Header">
-      <li>{{variable.Text}}</li>
+      <a href="{{variable.Link}}"><li>{{variable.Text}}</li></a>
 
       <!--<i [ngClass]="variable.class"></i>-->
     </ul>
   </div>
-  <div class="side-nav">
-
+  <div class="visible-sm visible-xs dropdown">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      <i class="fa fa-bars" style="color: black"></i>
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#banner">Home</a>
+      <a class="dropdown-item" href="#int">About</a>
+      <a class="dropdown-item" href="#Skills">Skills</a>
+      <a class="dropdown-item" href="#qualities">Qualities</a>
+      <a class="dropdown-item" href="#exp">Experience</a>
+      <a class="dropdown-item" href="#portfolio">Portfolio</a>
+      <a class="dropdown-item" href="#contact">Contact</a>
+    </div>
   </div>
 </mat-card>
